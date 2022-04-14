@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/graphic_area/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/traffic_light/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/u32_sum/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/u32_sum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/traffic_light/target" />
+      <excludeFolder url="file://$MODULE_DIR$/graphic_area/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
