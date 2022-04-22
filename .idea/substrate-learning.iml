@@ -5,9 +5,13 @@
       <sourceFolder url="file://$MODULE_DIR$/graphic_area/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/traffic_light/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/u32_sum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substrate-node-template/node/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substrate-node-template/pallets/template/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substrate-node-template/runtime/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/u32_sum/target" />
       <excludeFolder url="file://$MODULE_DIR$/traffic_light/target" />
       <excludeFolder url="file://$MODULE_DIR$/graphic_area/target" />
+      <excludeFolder url="file://$MODULE_DIR$/substrate-node-template/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
