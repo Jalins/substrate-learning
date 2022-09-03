@@ -278,6 +278,9 @@ impl pallet_template::Config for Runtime {
 	type MaxBytesInHash = frame_support::traits::ConstU32<64>;
 }
 
+impl pallet_use_storage::Config for Runtime {
+	type Event = Event;
+}
 // Create the runtime by composing the FRAME pallets that were previously configured.
 construct_runtime!(
 	pub enum Runtime where
@@ -294,7 +297,8 @@ construct_runtime!(
 		TransactionPayment: pallet_transaction_payment::{Pallet, Storage},
 		Sudo: pallet_sudo::{Pallet, Call, Config<T>, Storage, Event<T>},
 		// Include the custom logic from the pallet-template in the runtime.
-		TemplateModule: pallet_template::{Pallet, Call, Storage, Event<T>},
+		// TemplateModule: pallet_template::{Pallet, Call, Storage, Event<T>},
+		UseStorage: pallet_use_storage::{Pallet, Call, Storage, Event<T>},
 	}
 );
 
